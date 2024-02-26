@@ -1,70 +1,57 @@
-// Import Library
-#include <iostream>
-#include <string>
+// Library dari induk
+#include "Product.cpp"
 
-// Using standard namespace
-using namespace std;
-
-// Deklarasi Class, di C++ tidak perlu kapital, tetapi lebih baik menggunakannya.
-class Product
+// Class Clothing, anak dari class Product
+class Clothing : public Product
 {
+    // Atribut private yang dimiliki class Clothing
     private:
-        string id, name, brand, price;
+        string size, material, gender;
+
+    // Method yang bisa diakses diluar
     public:
-        Product() {
-            this->id = "";
-            this->name = "";
-            this->brand = "";
-            this->price = "";
+        Clothing() {
+            this->size = "";
+            this->material = "";
+            this->gender = "";
         }
-        Product(string id, string name, string brand, string price) {
-            this->id = id;
-            this->name = name;
-            this->brand = brand;
-            this->price = price;    
+        Clothing(string size, string material, string gender) {
+            this->size = size;
+            this->material = material;
+            this->gender = gender;
         }
 
-        // Get id 
-        string get_id() {
-            return this->id;
+        // Get size 
+        string get_size() {
+            return this->size;
         }
 
-        // Set id
-        void set_id(string id) {
-            this->id = id;
+        // Set size
+        void set_size(string size) {
+            this->size = size;
         }
 
-        // Get name 
-        string get_name() {
-            return this->name;
+        // Get material 
+        string get_material() {
+            return this->material;
         }
 
-        // Set name
-        void set_name(string name) {
-            this->name = name;
+        // Set material
+        void set_material(string material) {
+            this->material = material;
         }
 
-        // Get brand 
-        string get_brand() {
-            return this->brand;
+        // Get gender 
+        string get_gender() {
+            return this->gender;
         }
 
-        // Set brand
-        void set_brand(string brand) {
-            this->brand = brand;
+        // Set gender
+        void set_gender(string gender) {
+            this->gender = gender;
         }
 
-        // Get price 
-        string get_price() {
-            return this->price;
-        }
-
-        // Set price
-        void set_price(string price) {
-            this->price = price;
-        }
-        
-        ~Product() {
+        ~Clothing(){
 
         }
 };
