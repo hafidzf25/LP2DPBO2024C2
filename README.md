@@ -10,4 +10,5 @@ Untuk alurnya dimulai dari permintaan untuk berapa object sebuah shirt yang dimi
 Setelah menginput 3, maka akan dilanjutkan untuk menginput atribut tiap object nya, dimulai dari id, nama, brand, price, size, material, gender, color, dan sleeve type nya.
 
 Untuk hasil outputnya adalah sebagai berikut
+
 <img width="447" alt="Proses Output" src="https://github.com/hafidzf25/LP2DPBO2024C2/assets/117885795/efb06e94-74a6-4bb2-b04c-94c609f742d3">
