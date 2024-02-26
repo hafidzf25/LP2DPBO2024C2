@@ -1,13 +1,13 @@
 <?php
 
-require ('Shirt.php');
+require ('Shirt.php'); // Memanggil file Shirt untuk proses pengambilan classnya
 
-// Membuat objek anggota DPR dan menambahkannya
+// Membuat objek shirt dan menambahkannya atributnya sattu persatu
 $Shirt1 = new Shirt("1", "Shirt A", "Golkar", "50k", "S", "Beton", "Laki-laki", "Biru", "Panjang");
-$Shirt2 = new Shirt("1", "Shirt B", "PKI", "40k", "S", "Beton", "Laki-laki", "Biru", "Panjang");
-$Shirt3 = new Shirt("1", "Shirt C", "PKS", "30k", "L", "Beton", "Perempuan", "Biru", "Panjang");
-$Shirt4 = new Shirt("1", "Shirt D", "Golkar", "20k", "S", "Beton", "Laki-laki", "Biru", "Panjang");
-$Shirt5 = new Shirt("1", "Shirt E", "PDI", "10k", "M", "Beton", "Laki-laki", "Biru", "Panjang");
+$Shirt2 = new Shirt("2", "Shirt B", "PKI", "40k", "S", "Beton", "Laki-laki", "Biru", "Panjang");
+$Shirt3 = new Shirt("3", "Shirt C", "PKS", "30k", "L", "Beton", "Perempuan", "Biru", "Panjang");
+$Shirt4 = new Shirt("4", "Shirt D", "Golkar", "20k", "S", "Beton", "Laki-laki", "Biru", "Panjang");
+$Shirt5 = new Shirt("5", "Shirt E", "PDI", "10k", "M", "Beton", "Laki-laki", "Biru", "Panjang");
 
 // Mendeklarasikan array dan memasukkan object yang telah dibuat
 $daftarShirt = [];

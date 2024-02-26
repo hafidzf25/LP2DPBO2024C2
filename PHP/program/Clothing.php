@@ -1,16 +1,17 @@
 
 <?php
+// Memanggil file product.php untuk mencomot classnya
 require ('Product.php');
 
-// Deklarasi Class
+// Deklarasi Class Anak dari Product
 class Clothing extends Product{
     private $size;
     private $material;
     private $gender;
 
     // Konstruktor
-    public function __construct($material, $size, $gender) {
-        parent::__construct($idProduct, $name, $brand, $price); // Call the constructor of the parent class
+    public function __construct($id, $name, $brand, $price, $size, $material, $gender) {
+        parent::__construct($id, $name, $brand, $price);// Memanggil konstruktor dari parentnya
         $this->material = $material;
         $this->size = $size;
         $this->gender = $gender;

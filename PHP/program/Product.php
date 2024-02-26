@@ -2,13 +2,14 @@
 
 // Deklarasi Class
 class Product {
+    // Atribut private yangdimiliki oleh class Product
     private $id;
     private $name;
     private $brand;
     private $price;
 
     // Konstruktor
-    public function __construct($name, $id, $brand, $price) {
+    public function __construct($id, $name, $brand, $price) {
         $this->name = $name;
         $this->id = $id;
         $this->brand = $brand;

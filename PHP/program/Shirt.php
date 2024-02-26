@@ -1,5 +1,7 @@
 
 <?php
+
+// Memanggil kembali suatu file untuk mengambil suatu classnya
 require ('Clothing.php');
 
 // Deklarasi Class
@@ -8,8 +10,8 @@ class Shirt extends Clothing{
     private $sleevetype;
 
     // Konstruktor
-    public function __construct($id, $sleevetype, $color, $gender) {
-        $this->id = $id;
+    public function __construct($id, $name, $brand, $price, $size, $material, $gender, $color, $sleevetype) {
+        parent::__construct($id, $name, $brand, $price, $size, $material, $gender); // Memanggil konstruktor dari parentnya
         $this->sleevetype = $sleevetype;
         $this->color = $color;
     }
