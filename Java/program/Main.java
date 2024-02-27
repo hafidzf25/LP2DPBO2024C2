@@ -78,7 +78,7 @@ public class Main {
             
             System.out.println(("| ") + list.get(i).get_id() + (" | ") + list.get(i).get_name() + (" | ") + list.get(i).get_brand()
             + (" | ") + list.get(i).get_price() + (" | ") + list.get(i).get_size() + (" | ") + list.get(i).get_material()
-            + (" | ") + list.get(i).get_gender() + (" | ") + list.get(i).get_color() + (" | ") + list.get(i).get_sleeve_type());
+            + (" | ") + list.get(i).get_gender() + (" | ") + list.get(i).get_color() + (" | ") + list.get(i).get_sleeve_type() + (" |"));
         }
         System.out.println("================================================================================");
     }

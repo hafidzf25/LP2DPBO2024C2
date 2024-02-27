@@ -27,7 +27,7 @@ int main() {
     cout << "================================================================================"<< endl << endl;
 
     // Loop untuk mengisi data shirt satu persatu sebanyak n baju
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < n; i++)
     {
         cout << "================================================================================" << endl;
         cout << "Data " << i + 1 << endl;
@@ -76,7 +76,7 @@ int main() {
     // Looping sebanyak banyaknya data list shirt
     for (list<Shirt>::iterator it = llist.begin(); it != llist.end(); it++) {
         cout << "| " << it->get_id() << " | " << it->get_name() << " | " << it->get_brand() << " | " << it->get_price() << " | " << it->get_size()
-        << " | " << it->get_material() << " | " << it->get_gender() << " | " << it->get_color() << " | " << it->get_sleevetype() << endl;
+        << " | " << it->get_material() << " | " << it->get_gender() << " | " << it->get_color() << " | " << it->get_sleevetype() << " |" << endl;
         cout << "================================================================================" << endl;
     }
 
