@@ -10,6 +10,9 @@ Untuk alurnya dimulai dari permintaan untuk berapa object sebuah shirt yang dimi
 
 Setelah menginput 3, maka akan dilanjutkan untuk menginput atribut tiap object nya, dimulai dari id, nama, brand, price, size, material, gender, color, dan sleeve type nya.
 
+![image](https://github.com/hafidzf25/LP2DPBO2024C2/assets/117885795/856882f4-4afb-431e-bc50-0d07cfa638d4)
+
+
 Setelah diinput 3 data tadi dan ditampung, maka akan dilanjutkan untuk mengeset data atribut tadi ke sebuah object tampungan seperti dibawah ini
 
 ![image](https://github.com/hafidzf25/LP2DPBO2024C2/assets/117885795/3605d52b-fe4b-42a0-9876-3fa0bb4376d1)
